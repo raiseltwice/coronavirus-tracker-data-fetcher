@@ -1,4 +1,4 @@
-package ct.data.fetcher.service;
+package ct.data.fetcher.resource;
 
 import ct.data.fetcher.dto.StateDTO;
 import ct.data.fetcher.wrapper.StateWrapper;
@@ -13,7 +13,7 @@ import java.util.List;
 @Component
 @GraphQLApi
 @RequiredArgsConstructor
-public class StateService {
+public class StateResource {
 
     private final StateClient stateClient;
 

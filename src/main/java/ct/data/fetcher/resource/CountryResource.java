@@ -1,4 +1,4 @@
-package ct.data.fetcher.service;
+package ct.data.fetcher.resource;
 
 import ct.data.fetcher.dto.CountryDTO;
 import ct.data.fetcher.wrapper.CountryWrapper;
@@ -13,7 +13,7 @@ import java.util.List;
 @Component
 @GraphQLApi
 @RequiredArgsConstructor
-public class CountryService {
+public class CountryResource {
 
     private final CountryClient countryClient;
 

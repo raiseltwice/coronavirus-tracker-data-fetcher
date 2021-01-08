@@ -6,7 +6,7 @@ import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
-@FeignClient(value = "country", url = "http://localhost:8081")
+@FeignClient(value = "country", url = "${feign.url}")
 public interface CountryClient {
 
     @GetMapping("/countries")

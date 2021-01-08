@@ -1,4 +1,4 @@
-package ct.data.fetcher.service;
+package ct.data.fetcher.resource;
 
 import ct.data.fetcher.dto.CasesPerDateDTO;
 import ct.data.fetcher.client.CountryCasesPerDateClient;
@@ -13,7 +13,7 @@ import java.util.List;
 @Component
 @GraphQLApi
 @RequiredArgsConstructor
-public class CountryCasesPerDateService {
+public class CountryCasesPerDateResource {
 
     private final CountryCasesPerDateClient countryCasesPerDateClient;
 

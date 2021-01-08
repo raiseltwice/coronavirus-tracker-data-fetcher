@@ -5,3 +5,6 @@ graphql:
   spqr:
     gui:
       enabled: true
+
+feign:
+  url: "http://localhost:8081"
