@@ -1,6 +1,6 @@
-package ct.data.fetcher.wrapper;
+package coronavirus.tracker.data.gateway.wrapper;
 
-import ct.data.fetcher.dto.StateDTO;
+import coronavirus.tracker.data.gateway.dto.StateDTO;
 import lombok.Data;
 
 import java.util.List;

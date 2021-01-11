@@ -1,4 +1,4 @@
-package ct.data.fetcher.dto;
+package coronavirus.tracker.data.gateway.dto;
 
 import io.leangen.graphql.annotations.GraphQLQuery;
 import lombok.Data;

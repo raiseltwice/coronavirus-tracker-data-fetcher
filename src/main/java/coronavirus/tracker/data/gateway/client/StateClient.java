@@ -1,7 +1,7 @@
-package ct.data.fetcher.client;
+package coronavirus.tracker.data.gateway.client;
 
-import ct.data.fetcher.dto.StateDTO;
-import ct.data.fetcher.wrapper.StateWrapper;
+import coronavirus.tracker.data.gateway.dto.StateDTO;
+import coronavirus.tracker.data.gateway.wrapper.StateWrapper;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

@@ -1,8 +1,8 @@
-package ct.data.fetcher.resource;
+package coronavirus.tracker.data.gateway.resource;
 
-import ct.data.fetcher.dto.CountryDTO;
-import ct.data.fetcher.wrapper.CountryWrapper;
-import ct.data.fetcher.client.CountryClient;
+import coronavirus.tracker.data.gateway.dto.CountryDTO;
+import coronavirus.tracker.data.gateway.wrapper.CountryWrapper;
+import coronavirus.tracker.data.gateway.client.CountryClient;
 import io.leangen.graphql.annotations.GraphQLQuery;
 import io.leangen.graphql.spqr.spring.annotations.GraphQLApi;
 import lombok.RequiredArgsConstructor;
