@@ -1,0 +1,10 @@
+server:
+  port: 8082
+
+graphql:
+  spqr:
+    gui:
+      enabled: true
+
+feign:
+  url: "http://localhost:8081"
